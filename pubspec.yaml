@@ -1,0 +1,18 @@
+name: my_crud_api
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.0-edge.8e0198f19bf5628b2aab01f4a20f3609777fbad1
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  shelf: ^1.4.2
+  shelf_router: ^1.1.0
+  mysql1: ^0.20.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
