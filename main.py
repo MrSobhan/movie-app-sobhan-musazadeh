@@ -245,6 +245,85 @@
 
 
 
+# -----------------------------------------------------------------
+
+
+# def amplify(num):
+#     listNum = []
+#     if(num >= 1):
+#         for i in range(1 , num +1 ):
+#             # TODO: write code...
+#             if(i % 4 == 0):
+#                  listNum.append(i*10)
+#             else:
+#                  listNum.append(i)
+           
+#         return listNum    
+#     else:
+#         return "Your Num Not Current :("
+
+# getNum = int(input("Enter Your Num : "))
+# print(amplify(getNum))
+
+# -------------------------------------------------------------
+
+# def jadvalZarb(num):
+#     for i in range(1 , num +1):
+#         list = []
+#         for j in range(1 , i+1):
+#             list.append(i*j)
+#         print(list)    
+# getNum = int(input("Enter Your Num : "))
+# jadvalZarb(getNum)
+
+# -------------------------------------------------------------
+
+# num1 = int(input("Enter Your Num1 : "))
+# num2 = int(input("Enter Your Num2 : "))
+# num3 = int(input("Enter Your Num3 : "))
+
+# print("Avg : " ,(num1 + num2 + num3) // 3)
+
+# -------------------------------------------------------------
+# import random
+# num = round(random.random()*100)
+
+# print(num)
+# def play (name , status):
+#     # x =( status == h) ? 7 : 10
+#     x = 0
+#     if(status == "h"):
+#         x= 7
+#     else :
+#         x=10
+        
+        
+#     for i in range(1 , x+1):
+#         enterNumber = int(input(f"Enter Number{i} : "))
+#         if(enterNumber == num):
+#             print(f"you are win ********** {name}")
+#             return False
+#         else:
+#             if(enterNumber > num):
+#                 print("Kochek tar Vared kon")
+#             else:
+#                 print("Bozorg tar Vared kon")
+    
+#     print(f"you are lost ------- {name}")
+    
+
+# name = str(input("Enter Your Name : "))
+# status = input("Enter Your Level : ")
+# play(name , status)
+
+
+
+
+
+
+
+
+
 
 
 
