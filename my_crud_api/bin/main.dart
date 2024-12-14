@@ -66,3 +66,11 @@ void main() async {
   final server = await io.serve(handler, 'localhost', 8080);
   print('Server running at http://${server.address.host}:${server.port}');
 }
+
+
+// final headersResponse = {
+//   'Content-Type': 'application/json',
+//   'Access-Control-Allow-Origin': '*',
+//   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+//   'Access-Control-Allow-Headers': 'Content-Type, Authorization'
+// };
